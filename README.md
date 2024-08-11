@@ -5,3 +5,5 @@
 ```bash
 go get github.com/W1nnkkkk/FileBackReader
 ```
+
+**Reverse Scanner if needed** - https://pkg.go.dev/github.com/vallerion/rscanner
