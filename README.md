@@ -1,4 +1,4 @@
-**This is a simple code to get the latest lines in go using terminal commands.**
+**This is a simple code to get the latest lines in go using terminal commands (WIN: Get-Content, LINUX: tail).**
 
 - If you want to get this code, use:
 
