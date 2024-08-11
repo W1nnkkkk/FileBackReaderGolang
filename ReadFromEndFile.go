@@ -1,4 +1,4 @@
-package fileBackReader
+package main
 
 import (
 	"bytes"
@@ -31,8 +31,8 @@ func ReadFromEndFile(filePath string, countLines int) ([]string, error) {
 	if err != nil {
 		return []string{}, err
 	}
-	value := strings.Split(string(data), " ")
-	return value, nil
+	value := strings.SplitAfter(string(data), "\n")
+	return value[:countLines], nil
 }
 
 
