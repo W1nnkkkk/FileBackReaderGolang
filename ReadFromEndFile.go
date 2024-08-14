@@ -31,8 +31,8 @@ func ReadFromEndFile(filePath string, countLines int) ([]string, error) {
 	if err != nil {
 		return []string{}, err
 	}
-	value := strings.SplitAfter(string(data), "\n")
-	return value, nil
+	values := strings.SplitAfter(string(data), "\n")
+	return values[:len(values)-1], nil
 }
 
 
